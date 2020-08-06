@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetEnd="0dp"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="#FF8AC1">
+
+    <ImageButton
+            android:id="@+id/bSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mult_image"
+            android:layout_gravity="left"
+            android:background="@android:color/transparent"
+            android:scaleX="0.6"
+            android:scaleY="0.6"
+            android:onClick="loadImageSetOnClick"
+    />
+    <ImageButton
+            android:id="@+id/removeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/icons8_dotted_60"
+            android:layout_gravity="left"
+            android:background="@android:color/transparent"
+            android:scaleX="0.6"
+            android:scaleY="0.6" tools:ignore="RtlHardcoded"
+            android:onClick="clearImagesOnClick"
+    />
+
+
+    <!--    <TextView-->
+<!--            android:id="@+id/toolbar_title"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/fotag"-->
+<!--            android:textColor="@android:color/white"-->
+<!--            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"-->
+<!--            android:layout_gravity="left"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            tools:ignore="RtlHardcoded"/>-->
+
+
+
+    <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:numStars="5"
+            android:stepSize="1"
+            tools:ignore="RtlHardcoded"
+            style="?android:attr/ratingBarStyleSmall"
+            android:scaleX="1.2"
+            android:scaleY="1.2"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"
+            android:isIndicator="false"
+    />
+
+</androidx.appcompat.widget.Toolbar>
