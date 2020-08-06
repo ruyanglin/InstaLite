@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <EditText
+            android:id="@+id/urlText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textShortMessage|textLongMessage|text"
+            android:hint="@string/urlField"
+            android:ems="10"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+
+    <!--    <Button-->
+<!--            android:id="@+id/button"-->
+<!--            android:text="@string/loadBtnTxt"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:layout_constraintLeft_toLeftOf="@id/urlText"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            android:backgroundTint="#FF8AC1"-->
+<!--            android:layout_marginLeft="268dp" android:layout_marginBottom="268dp" android:layout_marginStart="268dp"/>-->
+<!--    <Button-->
+<!--            android:id="@+id/cancelBtn"-->
+<!--            android:text="@string/cancelBtnTxt"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:layout_constraintLeft_toLeftOf="@id/urlText"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            android:backgroundTint="#FF8AC1"-->
+<!--            android:layout_marginLeft="168dp" android:layout_marginBottom="268dp" android:layout_marginStart="168dp"/>-->
+</androidx.constraintlayout.widget.ConstraintLayout>
