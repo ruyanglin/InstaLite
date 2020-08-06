@@ -2,6 +2,9 @@
 
 A mobile photo rating app that allows users to upload images, filter and rate images.
 
+![Sceen 1](images/instalite_1.png) 
+![Sceen 2](images/instalite_2.png)
+
 ## Use
 * The leftmost button loads the image set from https://www.student.cs.uwaterloo.ca/~cs349/w20/assignments/images
     * Pressing the button again will load the image set again
