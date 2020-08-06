@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">Fotag</string>
-    <string name="fotag">Fotag</string>
-    <string name="loadBtnTxt">Load</string>
-    <string name="cancelBtnTxt">Cancel</string>
-    <string name="urlField">URL</string>
-</resources>
